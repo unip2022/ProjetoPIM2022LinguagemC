@@ -45,6 +45,7 @@ int main(void)
 
     }else{
         printf("\n Acesso Negado ");
+        //***
         goto EMAIL;
     }
 
