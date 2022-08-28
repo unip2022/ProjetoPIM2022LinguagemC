@@ -1,12 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+int Menu(){
+    int menu;
+    system("cls");
+    printf("ESCOLHA UMA OPCAO: \n 1 - CADASTRO CLIENTES \n 2 - CADASTRO DE FUNCIONARIOS \n 3 - CADASTRO DE PERFIL \n 4 - SAIR ");
+
+    printf("\n:Digite sua escolha: ");
+    scanf("%i",menu);
+
+}
+
+
+
 int main(void)
 {
     char email[61];
     char *emailVerifica;
     char senha[61];
     int i;
+
 
     /// *** ENTRADA DE EMAIL
     EMAIL: ///  INICIO DO GOTO
@@ -34,23 +48,11 @@ int main(void)
     system("cls");
     if( strcmp(email, "email@email.com") == 0 && strcmp(senha, "1234") == 0){
         printf("\n Acesso Permitido ");
-
-        /*
-            NESTA PARTE PODEMOS COLOCAR O MENU DO SISTEMA
-            1 - CADASTRO CLIENTES
-            2 - CADASTRO DE USUARIOS
-
-            DIGITE UMA OPÇÃO:_
-        */
-
+        Menu(); /// *** CHAMA A FUNÇÃO QUE EXIBIRÁ O MENU
     }else{
         printf("\n Acesso Negado ");
-        //***
         goto EMAIL;
     }
-
-
-
 
     getch();
     return 0;
