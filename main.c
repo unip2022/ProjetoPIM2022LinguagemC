@@ -15,14 +15,14 @@
 
 int main(void)
 {
-     setlocale(LC_ALL,"Portuguese");
-    verificaSenha();
+    setlocale(LC_ALL,"Portuguese");
+    //verificaSenha();
 
     /// *** CONFIGURA TAMANHO DA TELA
     system("MODE con cols=85 lines=30");
     system("title Sistema [ NOME DA EMPRESA ]");
 
-    //Menu();
+    Menu();
     //getch();
     return 0;
 }
