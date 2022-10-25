@@ -1,3 +1,0 @@
-email@email|1234
-email2@email|12
-email3@email|123

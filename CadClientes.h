@@ -3,6 +3,39 @@
 #include <locale.h>
 #include <conio.h>
 
+void salva(nomeCli,cpf,email,endereco,numero,cep,cidade,estado){
+
+        FILE *arq;
+
+        // ABRE ARQUIVO
+        arq = fopen("bd_clientes.txt", "a");
+        if (arq == NULL)
+        {
+         printf("Problemas na abertura do arquivo\n");
+         return;
+        }
+
+        //printf(" %s |  %s |  %s |  %s |  %s |  %s |  %s |  %s \n",nomeCli,cpf,email,endereco,numero,cep,cidade,estado);
+
+        fprintf(arq , " %s | ",nomeCli);
+        fprintf(arq , " %s | ",cpf);
+        fprintf(arq , " %s | ",email);
+        fprintf(arq , " %s | ",endereco);
+        fprintf(arq , " %s | ",numero);
+        fprintf(arq , " %s | ",cep);
+        fprintf(arq , " %s | ",cidade);
+        fprintf(arq , " %s | ",estado);
+        fputs("\n", arq);
+
+        for(int x = 50 ; x < 100 ; x++){
+            system("cls");
+            printf("\n\n\n");
+            printf("SALVANDO... [ %i % ]",x);
+        }
+
+        fclose(arq);
+
+}
 
 
 int CadastroClientes(){
@@ -10,7 +43,8 @@ int CadastroClientes(){
     //FILE *arq;
     char Linha[100];
     char *result;
-    char nome[100] = "";
+    char null[100] = "";
+    char nomeCli[100] = "";
     char cpf[100] = "";
     char email[100] = "";
     char endereco[100] = "";
@@ -26,8 +60,11 @@ int CadastroClientes(){
     printf("\n\n");
 
         printf("+-----------------------------------------------------------------------------------+\n");
-        printf("| Nome: ");
-        gets(nome);
+        printf("| INFORME OS DADOS DO CLIENTES \n");
+        gets(null);
+        printf("+-----------------------------------------------------------------------------------+\n");
+        printf("| NOME: ");
+        gets(nomeCli);
         printf("+-----------------------------------------------------------------------------------+\n");
         printf("| CPF: ");
         gets(cpf);
@@ -60,11 +97,7 @@ int CadastroClientes(){
 
             case 1:
 
-                for(int x = 50 ; x < 100 ; x++){
-                    system("cls");
-                    printf("\n\n\n");
-                    printf("SALVANDO... [ %i % ]",x);
-                }
+                salva(nomeCli,cpf,email,endereco,numero,cep,cidade,estado);
 
             break;
 
@@ -80,27 +113,6 @@ int CadastroClientes(){
 
         }
 
-        /*
-        // Abre um arquivo TEXTO para LEITURA
-        arq = fopen("bd_usuarios.txt", "rt");
-        if (arq == NULL)  // Se houve erro na abertura
-        {
-         printf("Problemas na abertura do arquivo\n");
-         return;
-        }
-
-        i = 1;
-        while (!feof(arq))
-        {
-        // Lê uma linha (inclusive com o '\n')
-          result = fgets(Linha, 100, arq);  // o 'fgets' lê até 99 caracteres ou até o '\n'
-          if (result)  // Se foi possível ler
-          //printf("Linha %d : %s",i,Linha);
-          printf("%s",Linha);
-          i++;
-        }
-        fclose(arq);
-        */
 
     printf("\n\n\n");
     system("pause");

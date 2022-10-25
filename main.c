@@ -34,7 +34,7 @@ int main(void)
     //verificaSenha();
 
     /// *** CONFIGURA TAMANHO DA TELA
-    system("MODE con cols=85 lines=50");
+    system("MODE con cols=85 lines=40");
     system("title Sistema [ SKT SISTEMS ]");
 
     Menu();
