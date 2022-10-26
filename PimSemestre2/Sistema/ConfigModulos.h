@@ -1,0 +1,6 @@
+#ifndef CONFIGMODULOS_H_INCLUDED
+#define CONFIGMODULOS_H_INCLUDED
+
+void ConfigModulos();
+
+#endif // CONFIGMODULOS_H_INCLUDED

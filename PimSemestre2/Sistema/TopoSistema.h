@@ -1,0 +1,6 @@
+#ifndef TOPOSISTEMA_H_INCLUDED
+#define TOPOSISTEMA_H_INCLUDED
+
+void TopoSistema();
+
+#endif // TOPOSISTEMA_H_INCLUDED

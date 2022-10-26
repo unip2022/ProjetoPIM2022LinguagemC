@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1666789919 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<locale.h>
+
+1666788985 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\config.c
+	<locale.h>
+
+1666793334 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\menu.c
+
+1666791013 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\toposistema.c
+
+1666794557 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\cadastrodeclientes.c
+	<stdio.h>
+
+1666788935 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\configmodulos.c
+
+1666789120 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\configcormenu.c
+
+1666791233 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\mensagemdeerroabrirarquivo.c
+
+1666793388 source:c:\users\user\desktop\unip\c\pimsemestre2\sistema\confirmaaddclientes.c
+
+1666794557 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\cadastrodeclientes.c
+	<stdio.h>
+
+1666788985 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\config.c
+	<locale.h>
+
+1666789120 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\configcormenu.c
+
+1666788935 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\configmodulos.c
+
+1666793388 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\confirmaaddclientes.c
+
+1666789919 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<locale.h>
+
+1666791233 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\mensagemdeerroabrirarquivo.c
+
+1666793334 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\menu.c
+
+1666791013 source:c:\users\user\desktop\unip\c\projetopim2022linguagemc\pimsemestre2\sistema\toposistema.c
+
