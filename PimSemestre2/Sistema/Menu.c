@@ -1,6 +1,7 @@
 void Menu(){
 
     int menu;
+    char ConsultaDeDados[100] = "BD_Clientes.txt";
 
     ConfigCodMenu();
 
@@ -31,7 +32,7 @@ void Menu(){
         CadastroDeClientes();
     break;
     case 2:
-        printf("2");
+        ConsultaDeClientes();
     break;
     case 3:
         printf("3");

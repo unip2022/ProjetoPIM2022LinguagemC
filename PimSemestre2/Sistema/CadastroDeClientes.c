@@ -7,8 +7,8 @@ int retorno;
 int qtd = 0;
 
 typedef struct Cliente{
-        char nome[100];
-        char email[100];
+        char nome[50];
+        char email[50];
         char fone[15];
 }cadastro;
 cadastro max[TAM];
@@ -43,9 +43,11 @@ void abreArquivoDeDados(){
 
             }else{
 
-                fprintf(arq , "%s|",max[cont].nome);
-                fprintf(arq , "%s|",max[cont].email);
-                fprintf(arq , "%s\n",max[cont].fone);
+                retorno = fwrite(&max[cont], sizeof(cadastro) ,1,arq);
+
+                if (retorno == 1) {
+                   printf("\n DADOS INSERIDOS COM SUCESSO! ");
+                }
 
                 cont++;
                 op = ConfirmaAddClientes();
