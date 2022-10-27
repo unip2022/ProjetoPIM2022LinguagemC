@@ -10,6 +10,7 @@ typedef struct Cliente{
         char nome[50];
         char email[50];
         char fone[15];
+        char ativo[2];
 }cadastro;
 cadastro max[TAM];
 
@@ -31,8 +32,10 @@ void abreArquivoDeDados(){
         gets(max[cont].email);
         printf ("\n Digite o numero: ");
         gets(max[cont].fone);
+        printf ("\n Cliente Ativo? [ s/n ]: ");
+        gets(max[cont].ativo);
 
-            if ( (strcmp(max[cont].nome, "") == 0 ) || (strcmp(max[cont].email, "") == 0 ) || (strcmp(max[cont].fone, "") == 0 ) ){
+            if ( (strcmp(max[cont].nome, "") == 0 ) || (strcmp(max[cont].email, "") == 0 ) || (strcmp(max[cont].fone, "") == 0 ) || (strcmp(max[cont].ativo, "") == 0 ) ){
 
                 system("color 4F");
                 printf("\n");
