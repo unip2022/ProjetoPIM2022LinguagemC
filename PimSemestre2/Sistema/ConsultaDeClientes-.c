@@ -101,4 +101,27 @@ void ConsultaDeClientes(){
     abreArquivoConsutaClientes();
     TopoSistema();
     Menu();
+
+
+    /*
+    arq = fopen("BD_Clientes.txt", "r");
+    if (arq == NULL){
+       printf ("Erro!\nO arquivo da lista não pode ser aberto!\n");
+       getch();
+       exit(1);
+    }
+
+    retorno = fread(&max[i], sizeof(contatos), 1, arq);//fread le apenas 1 contato do arquivo
+    while (retorno == 1){ //o retorno recebe a quantidade de contatos lidos no fread
+      printf("\n Nome....: %s",max[i].nome);
+      printf("\n Fone....: %s",max[i].fone);
+      printf("\n E-mail..: %s\n",max[i].email);
+      i++;
+      retorno = fread(&max[i], sizeof(contatos), 1, arq);//fread vai ler o proximo contato
+    }
+    printf(" \n\n %d Contatos salvos!\n ", i);
+    getch();//espera que o usuário pressione uma tecla
+    fclose(arq);//fecha o arquivo agenda.txt
+    */
+
 }

@@ -32,7 +32,7 @@ void Menu(){
         CadastroDeClientes();
     break;
     case 2:
-        //ConsultaDeClientes();
+        ConsultaDeClientes();
     break;
     case 3:
         printf("3");

@@ -1,0 +1,6 @@
+#ifndef CRIARBANCODADOS_H_INCLUDED
+#define CRIARBANCODADOS_H_INCLUDED
+
+void VerificaBancoDeDados();
+
+#endif // CRIARBANCODADOS_H_INCLUDED

@@ -68,7 +68,7 @@
 
 1666982259 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\confirmaaddclientes.c
 
-1667053235 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\main.c
+1667157714 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -80,8 +80,13 @@
 
 1666982259 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\mensagemdeerroabrirarquivo.c
 
-1667053657 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\menu.c
+1667156832 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\menu.c
 
 1667053463 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\toposistema.c
 	<windows.h>
+
+1667156832 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\consultadeclientes.c
+	<stdio.h>
+
+1667157593 source:c:\users\leonardo\documents\codeblocks\aula salatiel\pim\projetopim2022linguagemc\pimsemestre2\sistema\criarbancodados.c
 
