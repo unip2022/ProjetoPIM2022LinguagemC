@@ -5,6 +5,7 @@
 #include <conio.h>
 #include <ctype.h>
 #include <locale.h>
+#include <windows.h>
 
 int main()
 {
